@@ -10,7 +10,25 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  overflow: hidden;
+
   margin: 0;
+}
+
+.tour {
+  background: red;
+  width: 50vw;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 100% 20%;
+}
+
+.btn-act-container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
 }
