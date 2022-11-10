@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   return loading ? (
-    <h2>stil loading</h2>
+    <h2>loading</h2>
   ) : (
     <Tours removeTour={removeTour} arr={tours}></Tours>
   );

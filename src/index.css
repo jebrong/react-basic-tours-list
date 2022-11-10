@@ -11,12 +11,26 @@ body {
   align-items: center;
   justify-content: center;
 
+  background-color: #f0f0f0;
+
   margin: 0;
 }
 
 .tour {
-  background: red;
+  background: white;
   width: 50vw;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.tour h4 {
+  margin-top: 10px;
+  color: #429cff;
+}
+.tour h2 {
+  margin-bottom: 0;
 }
 
 img {
@@ -31,4 +45,49 @@ img {
   padding: 10px;
   display: flex;
   justify-content: center;
+}
+
+.btn-act-container button {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  outline: 0;
+}
+
+.btn-act-container button:hover {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+p button {
+  color: white;
+  background: #fa8783;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+p button:hover {
+  background: #ff48428f;
+}
+
+p {
+  text-align: justify;
 }
